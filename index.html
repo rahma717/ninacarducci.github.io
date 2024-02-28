@@ -4,26 +4,65 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description"
-		content="Photographe professionnelle basée à Bordeaux (33200), spécialisée dans les séances de portrait, le reportage événementiel, la photographie de mariage et les photos d'entreprise..">
+	<meta name="description" content="Photographe professionnelle basée à Bordeaux (33200), spécialisée dans les séances de portrait, le reportage événementiel, 
+	la photographie de mariage et les photos d'entreprise..">
 	<title>Nina Carducci Photographie</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<!-- <link
-		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		rel="stylesheet"> -->
+	<!-- Balises Meta pour Facebook -->
+	<meta property="og:title" content=" : Nina Carducci Photographie">
+	<meta property="og:site_name" content="Nina Carducci">
+	<meta property="og:url" content="https://ninacarducci.github.io">
+	<meta property="og:description"
+		content="Photographe Professionnelle basée à Bordeaux 33200, spécialisée dans les shootings de portrait, reportage événementiel, photo de mariage et photos d'entreprise">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://ninacarducci.github.io/assets/images/nina.jpg">
 
+	<!-- Balises Meta pour Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Nina Carducci Photographie">
+	<meta name="twitter:site" content="@NinaCarducci">
+	<meta name="twitter:description"
+		content="Photographe passionnée Bordelaise. Shooting, mariages, concerts, évènements">
+	<meta name="twitter:image" content="https://ninacarducci.github.io/assets/images/nina.jpg">
+	<meta name="twitter:image:alt" content="Photo de Nina Carducci">
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"address": {
+			  "@type": "PostalAddress",
+			  "streetAddress": "68 Avenue Alsace-Lorraine",
+			  "addressLocality": "Bordeaux",
+			  "postalCode": "33200",
+			  "addressCountry": "FR"
+			},
+			"url": "https://ninacarducci.github.io",
+			"telephone": "05 56 67 78 89",
+			"openingHoursSpecification": [
+			  {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+				  "Monday",
+				  "Tuesday",
+				  "Wednesday",
+				  "Thursday",
+				  "Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			  }
+			]
+		}
+	</script>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 
-
-
 </head>
-
 <body>
 	<header class="top-header">
 		<h1 class="name">Nina Carducci</h1>
-		<div class="nav">
+		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
@@ -32,7 +71,7 @@
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
 						target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 			</ul>
-		</div>
+		</nav>
 	</header>
 	<main>
 		<div id="header">
@@ -194,7 +233,7 @@
 				<div class="form-container">
 					<h3>Une question ? Une demande de devis ?</h3>
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-					<form action="" method="post">
+					<form action="#" method="post">
 						<label for="name">Nom</label>
 						<input type="text" name="name" id="name" autocomplete="name" aria-label="nom">
 						<label for="email">Email</label>
